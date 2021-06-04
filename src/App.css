@@ -7,6 +7,28 @@
   pointer-events: none;
 }
 
+#parent {
+  justify-content: center;
+  border: 3px solid #282c34;
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  margin: 150px auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  grid-area: 'btn';
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.counter-num {
+  margin: auto 15px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
